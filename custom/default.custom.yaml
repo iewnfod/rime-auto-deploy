@@ -1,7 +1,7 @@
 patch:
   # 菜单
   menu:
-    page_size: 8  # 候选词个数
+    page_size: 9  # 候选词个数
     # alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⑩ ]  # 修改候选项标签
     # alternative_select_keys: ASDFGHJKL  # 如编码字符占用数字键，则需另设选字键
     # ascii_mode、inline、no_inline、vim_mode 等等设定，可参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
@@ -11,7 +11,7 @@ patch:
   # （macOS 偏好设置的优先级更高，如果勾选【使用大写锁定键切换“ABC”输入法】则始终会切换输入法）
   #
   # 切换中英：
-  # 不同的选项表示：打字打到一半时按下了 CapsLock、Shift、Control 后： 
+  # 不同的选项表示：打字打到一半时按下了 CapsLock、Shift、Control 后：
   # commit_code  上屏原始的编码，然后切换到英文
   # commit_text  上屏拼出的词句，然后切换到英文
   # clear        清除未上屏内容，然后切换到英文
